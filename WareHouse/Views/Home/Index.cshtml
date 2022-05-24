@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Главная";
+}
+
+<div class="align-content-center">
+    <h5>Информация о системе</h5>
+
+</div>
+<div class="main-container">
+    
+    <div>
+        
+        <ol>
+            <li>Система предназначена для хранения информации о движении материалов, сырья, промежуточных изделий и готовой продукции по складам предприятия.
+                От момента поступления на склад Сырья до отгрузки Заказчику.
+            </li>
+             <li>
+                 Система устроена как набор справочнков и журналов заполняемых для фиксации данных о премещениях. Список справочников и журналов приведен ниже:
+         <div class="text-md-left">
+
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Sales" asp-action="Index"> Отгрузки </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Supplies" asp-action="Index"> Поступления </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Stores" asp-action="Index"> Склады </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Items" asp-action="Index"> Изделия </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Buyers" asp-action="Index"> Покупатели </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Vendors" asp-action="Index"> Поставщики </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="TypeOfDocuments" asp-action="Index"> Типы документов </a>
+                        </li>
+
+                    </ul>
+        </div>
+             </li>
+             <li>
+                   Краткое описание порядка работы со справочником или жуналом приведено непосредственно в начальной странице Справочника или Журнала.
+             </li>
+
+        </ol>
+     </div>
+</div>
